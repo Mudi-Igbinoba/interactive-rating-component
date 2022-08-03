@@ -74,12 +74,13 @@ main {
     font-weight: 700;
     border: none;
     cursor: pointer;
-    border-radius: 50px;
+    border-radius: 100px;
 }
 .rate-btn {
     padding: 15px 20px;
     background-color: hsl(213, 19%, 18%);
     color: hsl(217, 12%, 63%);
+    line-height: 100%;
 }
 
 .rate-btn:hover {

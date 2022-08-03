@@ -19,9 +19,8 @@ const selectedRatingText = document.querySelector('#selectedRating');
 rate.forEach((e) => {
     e.addEventListener('click', () => {
         //function that highlights only the selected button and saves its value in the aforementioned variable
-        clearSelectedRating();
-
         if (e.checked) {
+            clearSelectedRating();
             e.nextElementSibling.classList.add('active');
             ratingValue = e.nextElementSibling.textContent;
         }
